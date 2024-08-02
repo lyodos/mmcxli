@@ -1,0 +1,29 @@
+
+# Ignore OS specific files
+.directory
+Thumbs.db
+.DS_Store
+._*
+README.html
+
+# Ignore specific folders
+/__pycache__/
+
+# Ignore contents of the folder
+/configs/*
+/logs/*
+/styles/*
+/weights/*
+
+# But track the folder itself
+!/configs/
+!/logs/
+!/styles/
+!/weights/
+
+# keep the application-wide config files
+#!/configs/app_config.json
+#!/configs/vc_config.json
+
+# Ignore HTML files in /docs/ folder
+/docs/*.html
