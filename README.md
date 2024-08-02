@@ -125,7 +125,7 @@ WSL2 でも工夫して音声入出力を通せば使えるかもしれません
 
 ### Checkpoints
 
-5. ["ClassicVC" 声質変換モデルのリポジトリから ONNX 形式のモデルファイルをダウンロードし](https://github.com/lyodos/classic-vc/README.md#ONNX)、このリポジトリのルートフォルダ内の `weights` フォルダ（無ければ作成）に配置してください。必要な ONNX ファイルは以下のとおりです。
+5. ["ClassicVC" 声質変換モデルのリポジトリから ONNX 形式のモデルファイルをダウンロードし](https://github.com/lyodos/classic-vc?tab=readme-ov-file#onnx)、このリポジトリのルートフォルダ内の `weights` フォルダ（無ければ作成）に配置してください。必要な ONNX ファイルは以下のとおりです。
 
 ```pre
 (.) この readme.md があるローカルフォルダ
